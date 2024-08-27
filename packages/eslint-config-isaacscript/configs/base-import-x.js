@@ -59,7 +59,7 @@ const HELPFUL_WARNINGS = {
    * positives](https://github.com/un-ts/eslint-plugin-import-x/issues/123) when importing from
    * 3rd-party libraries such as TypeScript itself.
    */
-  "import-x/no-named-as-default": "off",
+  "import-x/no-named-as-default": "warn", // TODO
 
   /**
    * Disabled because this is [already handled by the TypeScript
